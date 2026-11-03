@@ -80,7 +80,8 @@ try:
     print(f"Skeleton CNN loaded: {len(classifier.labels)} classes, {classifier.img_size}px input")
 except Exception as error:
     model_load_error = str(error)
-    print(f"Warning: could not load model from {MODEL_PATH}: {error}")
+    print(f"Warning: could not load model from {
+          _PATH}: {error}")
 
 
 def parse_hands(raw_hands):

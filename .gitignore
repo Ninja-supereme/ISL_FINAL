@@ -10,7 +10,7 @@ __pycache__/
 
 # ML artifacts (anchored, so backend/src/models/ - the Mongoose schemas - stays tracked)
 ml_service/data/
-ml_service/models/
+
 
 # Logs
 *.log

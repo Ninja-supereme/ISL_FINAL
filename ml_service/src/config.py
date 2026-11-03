@@ -25,7 +25,7 @@ SMOOTHING_FRAMES = 4
 # State machine parameters (wall-clock seconds, not frame counts - the
 # frontend's frame rate depends on the viewer's device).
 CONFIDENCE_THRESHOLD = 0.50     # Minimum smoothed confidence to accept a letter into a word
-DEBOUNCE_SECONDS = 0.35         # How long a prediction must hold before it's accepted
+DEBOUNCE_SECONDS = 0.40         # How long a prediction must hold before it's accepted
 LOW_CONFIDENCE_SECONDS = 0.2    # How long confidence must dip to allow re-signing the same letter
 GAP_RESET_SECONDS = 0.5         # Frames stopped arriving this long -> treat as hands lowered
 
