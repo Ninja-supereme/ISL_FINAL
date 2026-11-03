@@ -16,9 +16,7 @@ ml_service/data/
 *.log
 
 # Runtime artifacts
-*.tflite
-*.h5
-*.keras
+
 
 # IDE
 .vscode/
